@@ -39,7 +39,7 @@ export const NetworkList: Networks = {
         'Automata 1RPC': 'wss://1rpc.io/dot',
         Dwellir: 'wss://polkadot-rpc.dwellir.com',
         'Dwellir Tunisia': 'wss://polkadot-rpc-tn.dwellir.com',
-        'IBP-GeoDNS1': 'wss://testnet-ws-1.server-1.glue.net',
+        'IBP-GeoDNS1': 'wss://testnet-relay-ws-1.server-1.glue.net',
         'IBP-GeoDNS2': 'wss://rpc.dotters.network/polkadot',
         LuckyFriday: 'wss://rpc-polkadot.luckyfriday.io',
         RadiumBlock: 'wss://polkadot.public.curie.radiumblock.co/ws',
