@@ -131,7 +131,7 @@ export const APIProvider = ({ children, network }: APIProviderProps) => {
       api.consts.system.ss58Prefix,
     ]);
 
-    console.log(api.consts)
+    console.log(api.consts);
 
     // Check that chain values have been fetched before committing to state. Could be expanded to
     // check supported chains.
