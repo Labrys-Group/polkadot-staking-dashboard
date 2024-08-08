@@ -126,12 +126,17 @@ export class Api {
       // Initialise api events.
       this.initApiEvents();
 
-      // Wait for api to be ready.
-      await this.#api.isReady;
+      // Wait for api to be ready with a timeout
+      const timeoutPromise = new Promise((_, reject) => 
+        setTimeout(() => reject(new Error('API connection timeout')), 30000)
+      );
+      await Promise.race([this.#api.isReady, timeoutPromise]);
+
+      this.dispatchEvent(this.ensureEventStatus('ready'));
     } catch (e) {
-      // TODO: report a custom api status error that can flag to the UI the rpcEndpoint failed -
-      // retry or select another one. Useful for custom endpoint configs.
-      // this.dispatchEvent(this.ensureEventStatus('error'));
+      console.error('API connection failed:', e);
+      this.dispatchEvent(this.ensureEventStatus('error'));
+      // Implement retry logic here if needed
     }
   }
 
