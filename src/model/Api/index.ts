@@ -127,7 +127,7 @@ export class Api {
       this.initApiEvents();
 
       // Wait for api to be ready with a timeout
-      const timeoutPromise = new Promise((_, reject) => 
+      const timeoutPromise = new Promise((_, reject) =>
         setTimeout(() => reject(new Error('API connection timeout')), 30000)
       );
       await Promise.race([this.#api.isReady, timeoutPromise]);

@@ -79,9 +79,8 @@ export const APIProvider = ({ children, network }: APIProviderProps) => {
   };
 
   // The current RPC endpoint for the network.
-  const [rpcEndpoint, setRpcEndpointState] = useState<string>(
-    initialRpcEndpoint()
-  );
+  const [rpcEndpoint, setRpcEndpointState] =
+    useState<string>(initialRpcEndpoint());
   const rpcEndpointRef = useRef(rpcEndpoint);
 
   // Set RPC provider with local storage and validity checks.
