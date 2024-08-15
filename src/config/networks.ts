@@ -34,16 +34,9 @@ export const NetworkList: Networks = {
     name: 'polkadot',
     endpoints: {
       lightClient: 'polkadot',
-      defaultRpcEndpoint: 'IBP-GeoDNS1',
+      defaultRpcEndpoint: 'Glue Mainnet',
       rpcEndpoints: {
-        'Automata 1RPC': 'wss://1rpc.io/dot',
-        Dwellir: 'wss://polkadot-rpc.dwellir.com',
-        'Dwellir Tunisia': 'wss://polkadot-rpc-tn.dwellir.com',
-        'IBP-GeoDNS1': 'wss://mainnet-relay-ws.m11.glue.net',
-        'IBP-GeoDNS2': 'wss://rpc.dotters.network/polkadot',
-        LuckyFriday: 'wss://rpc-polkadot.luckyfriday.io',
-        RadiumBlock: 'wss://polkadot.public.curie.radiumblock.co/ws',
-        Stakeworld: 'wss://dot-rpc.stakeworld.io',
+        'Glue Mainnet': 'wss://mainnet-relay-ws.m11.glue.net',
       },
     },
     namespace: '91b171bb158e2d3848fa23a9f1c25182',
