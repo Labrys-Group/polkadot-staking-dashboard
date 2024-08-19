@@ -2885,12 +2885,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w3ux/validator-assets@npm:^0.2.0":
+"@w3ux/validator-assets@npm:0.2.0":
   version: 0.2.0
   resolution: "@w3ux/validator-assets@npm:0.2.0"
   peerDependencies:
     react: ^18
   checksum: 10c0/58c9a0f6b2093f3376e1963933eee2cb72eced7b3b473f75d7efbc6c2d674bd6b8c25ab92b114dba137c128db72bca54bc8a9ed557ef37ec65751a845e96b0d8
+  languageName: node
+  linkType: hard
+
+"@w3ux/validator-assets@patch:@w3ux/validator-assets@npm%3A0.2.0#~/.yarn/patches/@w3ux-validator-assets-npm-0.2.0-cf7ac15b76.patch":
+  version: 0.2.0
+  resolution: "@w3ux/validator-assets@patch:@w3ux/validator-assets@npm%3A0.2.0#~/.yarn/patches/@w3ux-validator-assets-npm-0.2.0-cf7ac15b76.patch::version=0.2.0&hash=7e553a"
+  peerDependencies:
+    react: ^18
+  checksum: 10c0/9970f35738abc2802cbe791b84ac708be86f07ab0af85a31dd582a8f5b1073aff278b798c8ad3d5744a487bc847d45bf54bcc74394839fe92e8ea717241115a9
   languageName: node
   linkType: hard
 
@@ -6468,7 +6477,7 @@ __metadata:
     "@w3ux/react-polkicon": "npm:1.2.0"
     "@w3ux/types": "npm:0.2.0"
     "@w3ux/utils": "npm:^0.4.0"
-    "@w3ux/validator-assets": "npm:^0.2.0"
+    "@w3ux/validator-assets": "patch:@w3ux/validator-assets@npm%3A0.2.0#~/.yarn/patches/@w3ux-validator-assets-npm-0.2.0-cf7ac15b76.patch"
     "@zondax/ledger-substrate": "npm:^0.44.5"
     bignumber.js: "npm:^9.1.2"
     bn.js: "npm:^5.2.1"
