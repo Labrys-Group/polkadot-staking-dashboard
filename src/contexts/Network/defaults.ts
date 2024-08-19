@@ -5,9 +5,9 @@
 import { NetworkList } from 'config/networks';
 
 export const defaultNetworkContext = {
-  network: NetworkList.polkadot.name,
-  networkData: NetworkList.polkadot,
+  network: NetworkList.glue.name,
+  networkData: NetworkList.glue,
   switchNetwork: () => {},
 };
 
-export const defaultNetwork = 'polkadot';
+export const defaultNetwork = 'glue';
