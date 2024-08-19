@@ -52,7 +52,7 @@ export const NetworkList: Networks = {
       },
     },
     unit: 'GLUE',
-    units: 10,
+    units: 18,
     ss58: 0,
     brand: {
       icon: PolkadotIconSVG,
