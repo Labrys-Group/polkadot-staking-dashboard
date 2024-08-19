@@ -1,0 +1,10 @@
+diff --git a/index.d.ts b/index.d.ts
+index 357c59209224c5eef530617c5ce55069a9235ce3..c76f1928282744d2f4698cb7eddd4657fe4a268c 100644
+--- a/index.d.ts
++++ b/index.d.ts
+@@ -1,4 +1,4 @@
+-type ValidatorSupportedChains = "polkadot" | "kusama" | "westend";
++type ValidatorSupportedChains = "glue";
+ interface ValidatorEntry {
+     name: string;
+     icon: string;
